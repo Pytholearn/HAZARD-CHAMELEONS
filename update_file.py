@@ -10,7 +10,7 @@ def update():
     
     cwd = os.getcwd()
     print(cwd)
-    AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/test/main/version")
+    AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version")
     download_link = "https://github.com/Pytholearn/test.git"
     AutoUpdate.set_current_version("1.1.2")
 
