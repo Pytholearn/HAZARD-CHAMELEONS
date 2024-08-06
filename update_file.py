@@ -12,7 +12,7 @@ def update():
     print(cwd)
     AutoUpdate.set_url("https://raw.githubusercontent.com/Pytholearn/HAZARD-CHAMELEONS/main/version")
     download_link = "https://github.com/Pytholearn/HAZARD-CHAMELEONS.git"
-    AutoUpdate.set_current_version("1.1.2")
+    AutoUpdate.set_current_version("2.1.3")
 
     if not AutoUpdate.is_up_to_date():
         print("""
